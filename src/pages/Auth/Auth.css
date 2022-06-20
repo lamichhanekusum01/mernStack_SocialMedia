@@ -1,0 +1,65 @@
+.Auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-content: center; */
+    height: 100vh;
+    gap:4rem;
+    position: relative;
+}
+.Auth>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aLeft{
+    gap: 2rem;
+
+}
+.aLeft>img{
+    width: 4rem;
+    height: 4rem;
+}
+.WebName>h1{
+    font-size: 3rem;
+    background-color: red;
+    background-image: var(--buttonBg);
+    background-size:100% ;
+    background-repeat:repeat ;
+    -webkit-background-clip:text ;
+    -webkit-text-fill-color:transparent ;
+    -moz-background-clip: text;
+
+} 
+
+.WebName>h6{
+    font-size:0.85rem ;
+}
+
+.infoForm{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+}
+.infoInput{
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    flex: 1;
+    padding: 20px;
+    border-radius:8px ;
+
+}
+.infoForm>div{
+    display: flex;
+    width: 90%;
+    height: 2rem;
+    gap: 1rem;
+}
+.sbButton{
+     width: 6rem;
+    height: 2rem;
+    align-items: flex-end;
+}
